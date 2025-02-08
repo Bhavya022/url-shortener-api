@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.test
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Cache & Build files
+dist/
+build/
+coverage/
+.DS_Store
+
+# Ignore local MongoDB data (if applicable)
+data/
+dump/
+
+# Docker & VS Code specific files
+docker-compose.yml
+Dockerfile
+.vscode/
